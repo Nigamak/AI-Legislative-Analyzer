@@ -7,7 +7,7 @@ app = FastAPI(
     description="Citizen's Dashboard for Indian Legal Documents",
     version="1.0.0"
 )
-
+# Another update by Devagiri
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

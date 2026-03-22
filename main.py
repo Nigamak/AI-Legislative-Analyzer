@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import summarize, upload
-
+# Updated by Devagiri
 app = FastAPI(
     title="AI Legislative Analyzer",
     description="Citizen's Dashboard for Indian Legal Documents",
